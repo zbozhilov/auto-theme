@@ -1,5 +1,5 @@
 {
-  "name": "automate",
+  "name": "auto-theme",
   "version": "1.0.0",
   "description": "",
   "main": "./scripts/setup.js",
@@ -12,7 +12,7 @@
     "automate"
   ],
   "author": "Zhivko Bozhilov",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "fs-extra": "^11.2.0"
   }
