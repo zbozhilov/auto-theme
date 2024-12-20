@@ -71,6 +71,12 @@ const structure = [
     },
     {
         dir: './template-parts',
+        fileName: 'index.php',
+        contentFrom: './template-parts/index.php',
+        hasWildcards: true
+    },
+    {
+        dir: './template-parts',
         fileName: 'header.php',
         contentFrom: './template-parts/header.php',
         hasWildcards: true
@@ -95,8 +101,20 @@ const structure = [
     },
     {
         dir: './includes',
+        fileName: 'index.php',
+        contentFrom: './includes/index.php',
+        hasWildcards: true
+    },
+    {
+        dir: './includes',
         fileName: 'load.php',
         contentFrom: './includes/load.php',
+        hasWildcards: true
+    },
+    {
+        dir: './includes/seo',
+        fileName: 'index.php',
+        contentFrom: './includes/seo/index.php',
         hasWildcards: true
     },
     {
