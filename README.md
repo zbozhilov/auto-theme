@@ -8,8 +8,8 @@ A tool for generating a started WordPress theme that includes VERY basic structu
 npm run setup -- --name=THEME_NAME --namespace=PHP_NAMESPACE --domain=THEME_TEXT_DOMAIN
 ```
 
-# The theme is installed in the ./build folder. 
-# node_modules is not pre-installed. run npm i inside ./build folder.
+- The theme is installed in the ./build folder. 
+- node_modules is not pre-installed. run npm i inside ./build folder.
 
 ## Config
 
