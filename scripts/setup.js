@@ -28,16 +28,16 @@ const getThemeDetails = async () => {
     const themeLicenseArg = args.find(arg => arg.startsWith('--license='));
     const themeLicenseUriArg = args.find(arg => arg.startsWith('--license-uri='));
 
-    const themeName = themeNameArg?.split('=')[1] || await promptUser('Enter theme name (default: my-theme): ') || 'my-theme';
-    const themeNamespace = themeNamespaceArg?.split('=')[1] || await promptUser('Enter theme namespace (default: empty): ') || '';
-    const themeDomain = themeDomainArg?.split('=')[1] || await promptUser('Enter theme domain (default: my-theme-domain): ') || 'my-theme-domain';
+    const themeName = themeNameArg?.split('=')[1] || await promptUser('\x1b[33mEnter theme name (default: my-theme): \x1b[0m') || 'my-theme';
+    const themeNamespace = themeNamespaceArg?.split('=')[1] || await promptUser('\x1b[33mEnter theme namespace (default: empty): \x1b[0m') || '';
+    const themeDomain = themeDomainArg?.split('=')[1] || await promptUser('\x1b[33mEnter theme domain (default: my-theme-domain): \x1b[0m') || 'my-theme-domain';
 
-    const themeUri = themeUriArg?.split('=')[1] || await promptUser('Enter theme URI (default: www.stachethemes.com): ') || 'www.stachethemes.com';
-    const themeDesc = themeDescArg?.split('=')[1] || await promptUser('Enter theme description (default: Starter theme): ') || 'Starter theme';
-    const themeAuthor = themeAuthorArg?.split('=')[1] || await promptUser('Enter theme author (default: Zhivko Bozhilov): ') || 'Zhivko Bozhilov';
-    const themeAuthorUri = themeAuthorUriArg?.split('=')[1] || await promptUser('Enter theme author URI (default: www.stachethemes.com): ') || 'www.stachethemes.com';
-    const themeLicense = themeLicenseArg?.split('=')[1] || await promptUser('Enter theme license (default: GNU General Public License v2 or later): ') || 'GNU General Public License v2 or later';
-    const themeLicenseUri = themeLicenseUriArg?.split('=')[1] || await promptUser('Enter theme license URI (default: http://www.gnu.org/licenses/gpl-2.0.html): ') || 'http://www.gnu.org/licenses/gpl-2.0.html';
+    const themeUri = themeUriArg?.split('=')[1] || await promptUser('\x1b[33mEnter theme URI (default: www.stachethemes.com): \x1b[0m') || 'www.stachethemes.com';
+    const themeDesc = themeDescArg?.split('=')[1] || await promptUser('\x1b[33mEnter theme description (default: Starter theme): \x1b[0m') || 'Starter theme';
+    const themeAuthor = themeAuthorArg?.split('=')[1] || await promptUser('\x1b[33mEnter theme author (default: Zhivko Bozhilov): \x1b[0m') || 'Zhivko Bozhilov';
+    const themeAuthorUri = themeAuthorUriArg?.split('=')[1] || await promptUser('\x1b[33mEnter theme author URI (default: www.stachethemes.com): \x1b[0m') || 'www.stachethemes.com';
+    const themeLicense = themeLicenseArg?.split('=')[1] || await promptUser('\x1b[33mEnter theme license (default: GNU General Public License v2 or later): \x1b[0m') || 'GNU General Public License v2 or later';
+    const themeLicenseUri = themeLicenseUriArg?.split('=')[1] || await promptUser('\x1b[33mEnter theme license URI (default: http://www.gnu.org/licenses/gpl-2.0.html): \x1b[0m') || 'http://www.gnu.org/licenses/gpl-2.0.html';
 
     return {
         themeName,
