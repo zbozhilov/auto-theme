@@ -49,7 +49,7 @@ const structure = [
         dir: './languages',
         fileName: 'readme.txt',
         contentFrom: './languages/readme.txt',
-        hasWildcards: true
+        hasWildcards: false
     },
     {
         dir: './',
