@@ -1,0 +1,20 @@
+{
+  "name": "automate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./scripts/setup.js",
+  "scripts": {
+    "setup": "node scripts/setup.js"
+  },
+  "keywords": [
+    "starter",
+    "theme",
+    "automate"
+  ],
+  "author": "Zhivko Bozhilov",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "shelljs": "^0.8.5"
+  }
+}
