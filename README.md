@@ -9,7 +9,7 @@ npm run setup -- --name=THEME_NAME --namespace=PHP_NAMESPACE --domain=THEME_TEXT
 ```
 
 - The theme is installed in the ./build folder. 
-- node_modules is not pre-installed. run npm i inside ./build folder.
+- node_modules is not pre-installed. run "npm i" inside ./build folder.
 
 ## Config
 
