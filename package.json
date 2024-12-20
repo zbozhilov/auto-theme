@@ -14,7 +14,6 @@
   "author": "Zhivko Bozhilov",
   "license": "ISC",
   "devDependencies": {
-    "fs-extra": "^11.2.0",
-    "shelljs": "^0.8.5"
+    "fs-extra": "^11.2.0"
   }
 }
